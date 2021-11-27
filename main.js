@@ -31,10 +31,6 @@ function draw(){
     image(video,0,0,600,500);
 }
 
-function draw(){
-    image(video,0,0,400,300);
-}
-
 function gotPoses(results){
   if(results.length > 0 ){
 
